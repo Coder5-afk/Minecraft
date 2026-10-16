@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "skills": {
+    "minecraft-bedrock-addon-dev": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-bedrock-addon-dev/SKILL.md",
+      "computedHash": "5de2beddad57435ae805eb90370ceb0609d8c113d377b885a68f84b9dbd410b0"
+    },
+    "minecraft-bedrock-server-admin": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-bedrock-server-admin/SKILL.md",
+      "computedHash": "c3e98e9843b6a1c6e2d4a129caaca09d36317b736cd3dfb0029c0f6597dc8d43"
+    },
+    "minecraft-bot-qa": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-bot-qa/SKILL.md",
+      "computedHash": "a7ed3f8c5ea1837106b98dcb93b8a1244c2ddf37a7d9f2eaf3bb0fd7e5f17e75"
+    },
+    "minecraft-ci-release": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-ci-release/SKILL.md",
+      "computedHash": "37e05a146636a5b6bb4814b8e7f0d4b0b40fcc7e136c9f9ac7175e57fd56d078"
+    },
+    "minecraft-commands-scripting": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-commands-scripting/SKILL.md",
+      "computedHash": "a0e55388d1b7f54e7adf851c37c1471fcf40440146ae949b8bf7420c82f8e76a"
+    },
+    "minecraft-crossplay-ops": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-crossplay-ops/SKILL.md",
+      "computedHash": "3c6e7b0c7b036cbd1aa3a9f47d977cd236f9cc1b47f7317bfdea6ea3f05d6ca2"
+    },
+    "minecraft-datapack": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-datapack/SKILL.md",
+      "computedHash": "bdc9886867e5e0393e426d76e3680ef35d2a8d18f0982bdd6f00fed50751cdec"
+    },
+    "minecraft-essentials-ops": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-essentials-ops/SKILL.md",
+      "computedHash": "ae4addf7f3a3700b3c2624918cfee4a4f8513a03b37d4358b50dd3d01f42131b"
+    },
+    "minecraft-imagegen": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-imagegen/SKILL.md",
+      "computedHash": "13e6f6c49f092d99ced002dd1659edf9e8d075b39f24a16b2a793d68d50e0ffd"
+    },
+    "minecraft-modding": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-modding/SKILL.md",
+      "computedHash": "ad3ee3fb99c98482a6cef1161466f933600f9a9d3c252cfaf7e39fe02e835af2"
+    },
+    "minecraft-multiloader": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-multiloader/SKILL.md",
+      "computedHash": "4ae6f4f6dc31f9ed2b01621bade6e6d9aba1dff99796f38d33e297115d7d5106"
+    },
+    "minecraft-permissions-admin": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-permissions-admin/SKILL.md",
+      "computedHash": "83e9b8fef59a8c25f808c2ec6fa6d452269242d29bde66d6bd09693a40a28a93"
+    },
+    "minecraft-plugin-dev": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-plugin-dev/SKILL.md",
+      "computedHash": "44e21385785ee681ec27e769cc9c9589524db8456c89335056d546aba8aacdfc"
+    },
+    "minecraft-resource-pack": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-resource-pack/SKILL.md",
+      "computedHash": "70653c76f5458412c450048a48cd81194ac4d1a2a1d737bb81b6cd2d6e213958"
+    },
+    "minecraft-resource-pack-conversion": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-resource-pack-conversion/SKILL.md",
+      "computedHash": "4db67bb1d5fcdbd29221c9f805cb6c21eed7cbbde56970a3d8039d28e1b5280b"
+    },
+    "minecraft-server-admin": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-server-admin/SKILL.md",
+      "computedHash": "db8d3755e8bdeccf31e4d27bd34e8587f1fab2070b8394d040e65d29e4eb9675"
+    },
+    "minecraft-task-router": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-task-router/SKILL.md",
+      "computedHash": "f4d5657de2eb0a265ff9e9711b4362857d05ec542f6e312577da565074df3727"
+    },
+    "minecraft-testing": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-testing/SKILL.md",
+      "computedHash": "7b806dd05e705c760340ef5c1ee9fccff370fd87911591a9ddf5a76389d56d69"
+    },
+    "minecraft-world-generation": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-world-generation/SKILL.md",
+      "computedHash": "3da1749138940f3cb6d1d6de856175857589be13878f820d864e75efc60e974a"
+    },
+    "minecraft-worldedit-ops": {
+      "source": "AIKUSAN/minecraft-agent-skills-bundle",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/minecraft-worldedit-ops/SKILL.md",
+      "computedHash": "62a83c38a810e1501840c4ba207e89a79bc544c53dcf445120a28738d3d79c54"
+    }
+  }
+}
