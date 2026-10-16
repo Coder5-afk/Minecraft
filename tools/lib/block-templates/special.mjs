@@ -43,6 +43,11 @@ export function hangingSignBlock(species) {
 }
 
 export function saplingBlock(species) {
+  const growEvent = `${NAMESPACE}:grow_${species.id}`;
+  const forceGrowEvent = `${NAMESPACE}:force_grow_${species.id}`;
+  const treeFeatureId = `${NAMESPACE}:${species.id}_tree`;
+  const matureCondition = "q.block_state('africantrees:growth_stage') >= 3";
+
   return {
     format_version: "1.21.0",
     "minecraft:block": {
@@ -58,8 +63,33 @@ export function saplingBlock(species) {
         "minecraft:material_instances": { "*": materialInstance(`${species.id}_sapling`) },
         "minecraft:destructible_by_mining": { seconds_to_destroy: 0 },
         "minecraft:on_random_tick": {
-          event: `${NAMESPACE}:grow_${species.id}`,
+          event: growEvent,
           condition: "query.random_value(0, 6) == 0",
+        },
+        // Bone meal used on the sapling jumps straight to force-growing it,
+        // instead of waiting for the next random tick.
+        "minecraft:on_interact": {
+          event: forceGrowEvent,
+          condition: "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bone_meal')",
+        },
+      },
+      events: {
+        [growEvent]: {
+          sequence: [
+            {
+              condition: matureCondition,
+              place_feature: treeFeatureId,
+            },
+            {
+              condition: `!(${matureCondition})`,
+              set_block_state: {
+                "africantrees:growth_stage": "q.block_state('africantrees:growth_stage') + 1",
+              },
+            },
+          ],
+        },
+        [forceGrowEvent]: {
+          place_feature: treeFeatureId,
         },
       },
     },
