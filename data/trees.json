@@ -1,0 +1,72 @@
+[
+  {
+    "id": "baobab",
+    "displayName": "Baobab",
+    "barkColorHex": "#9C8061",
+    "plankColorHex": "#D8C49A",
+    "leafColorHex": "#6E8B3D"
+  },
+  {
+    "id": "acacia_umbrella",
+    "displayName": "Acacia",
+    "barkColorHex": "#7A5230",
+    "plankColorHex": "#C99A5B",
+    "leafColorHex": "#8FAE4E"
+  },
+  {
+    "id": "african_mahogany",
+    "displayName": "African Mahogany",
+    "barkColorHex": "#5B2E1C",
+    "plankColorHex": "#8B4A2B",
+    "leafColorHex": "#355E32"
+  },
+  {
+    "id": "african_blackwood",
+    "displayName": "African Blackwood",
+    "barkColorHex": "#2B2320",
+    "plankColorHex": "#3D2E27",
+    "leafColorHex": "#2F4A2E"
+  },
+  {
+    "id": "iroko",
+    "displayName": "Iroko",
+    "barkColorHex": "#6B4A32",
+    "plankColorHex": "#A9794F",
+    "leafColorHex": "#4F7A3B"
+  },
+  {
+    "id": "sapele",
+    "displayName": "Sapele",
+    "barkColorHex": "#6E3B2A",
+    "plankColorHex": "#9C5C3C",
+    "leafColorHex": "#3F6B3A"
+  },
+  {
+    "id": "marula",
+    "displayName": "Marula",
+    "barkColorHex": "#8C7256",
+    "plankColorHex": "#C7A878",
+    "leafColorHex": "#5E8544"
+  },
+  {
+    "id": "jackalberry",
+    "displayName": "Jackalberry",
+    "barkColorHex": "#4A3A2E",
+    "plankColorHex": "#6E5A45",
+    "leafColorHex": "#3A5C34"
+  },
+  {
+    "id": "mopane",
+    "displayName": "Mopane",
+    "barkColorHex": "#7D5A3C",
+    "plankColorHex": "#B38655",
+    "leafColorHex": "#7A9C4E"
+  },
+  {
+    "id": "shea",
+    "displayName": "Shea",
+    "barkColorHex": "#5E4A38",
+    "plankColorHex": "#977A54",
+    "leafColorHex": "#4C7040"
+  }
+]
