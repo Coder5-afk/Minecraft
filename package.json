@@ -1,0 +1,23 @@
+{
+  "name": "minecraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder5-afk/Minecraft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bedrock-protocol": "^3.60.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Coder5-afk/Minecraft/issues"
+  },
+  "homepage": "https://github.com/Coder5-afk/Minecraft#readme"
+}
