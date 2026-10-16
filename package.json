@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node tools/generate-pack.mjs",
+    "validate": "node tools/validate-pack.mjs",
+    "package": "node tools/package-addon.mjs"
   },
   "repository": {
     "type": "git",
@@ -14,7 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bedrock-protocol": "^3.60.1"
+    "bedrock-protocol": "^3.60.1",
+    "pngjs": "^7.0.0"
   },
   "bugs": {
     "url": "https://github.com/Coder5-afk/Minecraft/issues"

@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "African Trees",
+    "description": "10 African tree species with full wood-product parity and natural world generation.",
+    "uuid": "b2e3d6b0-7532-4bbe-b410-72d4212acce9",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 52]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "631aad50-5748-40ca-b71d-e3ad55a91dfd",
+      "version": [1, 0, 0]
+    }
+  ]
+}
