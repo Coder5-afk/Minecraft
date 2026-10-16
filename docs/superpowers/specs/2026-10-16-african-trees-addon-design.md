@@ -2,7 +2,22 @@
 
 Date: 2026-10-16
 Target: Minecraft Bedrock Edition 1.26.52
-Status: Approved for planning
+Status: Approved for planning; corrected post-implementation (see Addendum)
+
+## Addendum (post-implementation fix pass, after final review)
+
+The final whole-branch review found that this spec's "no Script API is
+required" claim (originally under World generation, below) does not hold:
+`minecraft:on_random_tick` and block "events" — the data-driven mechanism
+this spec assumed for sapling growth, bonemeal, and door/trapdoor/
+fence-gate interaction — were removed from Bedrock's block format in
+format 1.20.80. The add-on now ships a small Script API module
+(`behavior_pack/scripts/main.js`) registering custom block components for
+exactly those three behaviors, nothing else. Everywhere else below that
+says "no Script API" or "purely data-driven" should be read with that
+correction in mind. The review also found this spec never specified a
+leaves block at all (`leafColorHex` sat unused) — one was added per
+species, consumed by the tree feature's canopy.
 
 ## Purpose
 

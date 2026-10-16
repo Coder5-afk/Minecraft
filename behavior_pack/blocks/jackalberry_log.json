@@ -30,7 +30,11 @@
         "flame_odds": 5,
         "burn_odds": 5
       },
-      "minecraft:map_color": "#8B5A2B"
+      "minecraft:map_color": "#8B5A2B",
+      "minecraft:loot": "loot_tables/blocks/jackalberry_log.json",
+      "minecraft:custom_components": [
+        "africantrees:strippable"
+      ]
     }
   }
 }

@@ -4,69 +4,89 @@
     "displayName": "Baobab",
     "barkColorHex": "#9C8061",
     "plankColorHex": "#D8C49A",
-    "leafColorHex": "#6E8B3D"
+    "leafColorHex": "#6E8B3D",
+    "trunkHeightBase": 4,
+    "canopyRadius": 4
   },
   {
     "id": "acacia_umbrella",
-    "displayName": "Acacia",
+    "displayName": "Umbrella Acacia",
     "barkColorHex": "#7A5230",
     "plankColorHex": "#C99A5B",
-    "leafColorHex": "#8FAE4E"
+    "leafColorHex": "#8FAE4E",
+    "trunkHeightBase": 5,
+    "canopyRadius": 3
   },
   {
     "id": "african_mahogany",
     "displayName": "African Mahogany",
     "barkColorHex": "#5B2E1C",
     "plankColorHex": "#8B4A2B",
-    "leafColorHex": "#355E32"
+    "leafColorHex": "#355E32",
+    "trunkHeightBase": 8,
+    "canopyRadius": 3
   },
   {
     "id": "african_blackwood",
     "displayName": "African Blackwood",
     "barkColorHex": "#2B2320",
     "plankColorHex": "#3D2E27",
-    "leafColorHex": "#2F4A2E"
+    "leafColorHex": "#2F4A2E",
+    "trunkHeightBase": 6,
+    "canopyRadius": 2
   },
   {
     "id": "iroko",
     "displayName": "Iroko",
     "barkColorHex": "#6B4A32",
     "plankColorHex": "#A9794F",
-    "leafColorHex": "#4F7A3B"
+    "leafColorHex": "#4F7A3B",
+    "trunkHeightBase": 9,
+    "canopyRadius": 3
   },
   {
     "id": "sapele",
     "displayName": "Sapele",
     "barkColorHex": "#6E3B2A",
     "plankColorHex": "#9C5C3C",
-    "leafColorHex": "#3F6B3A"
+    "leafColorHex": "#3F6B3A",
+    "trunkHeightBase": 8,
+    "canopyRadius": 2
   },
   {
     "id": "marula",
     "displayName": "Marula",
     "barkColorHex": "#8C7256",
     "plankColorHex": "#C7A878",
-    "leafColorHex": "#5E8544"
+    "leafColorHex": "#5E8544",
+    "trunkHeightBase": 5,
+    "canopyRadius": 3
   },
   {
     "id": "jackalberry",
     "displayName": "Jackalberry",
     "barkColorHex": "#4A3A2E",
     "plankColorHex": "#6E5A45",
-    "leafColorHex": "#3A5C34"
+    "leafColorHex": "#3A5C34",
+    "trunkHeightBase": 6,
+    "canopyRadius": 3
   },
   {
     "id": "mopane",
     "displayName": "Mopane",
     "barkColorHex": "#7D5A3C",
     "plankColorHex": "#B38655",
-    "leafColorHex": "#7A9C4E"
+    "leafColorHex": "#7A9C4E",
+    "trunkHeightBase": 4,
+    "canopyRadius": 2
   },
   {
     "id": "shea",
     "displayName": "Shea",
     "barkColorHex": "#5E4A38",
     "plankColorHex": "#977A54",
-    "leafColorHex": "#4C7040"
+    "leafColorHex": "#4C7040",
+    "trunkHeightBase": 5,
+    "canopyRadius": 3
   }
 ]

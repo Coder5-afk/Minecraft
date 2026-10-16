@@ -6,6 +6,7 @@
       "places_feature": "africantrees:acacia_umbrella_tree"
     },
     "conditions": {
+      "placement_pass": "surface_pass",
       "minecraft:biome_filter": {
         "any_of": [
           {
@@ -48,6 +49,7 @@
     },
     "distribution": {
       "iterations": 1,
+      "scatter_chance": "10%",
       "x": {
         "distribution": "uniform",
         "extent": [
@@ -55,13 +57,7 @@
           16
         ]
       },
-      "y": {
-        "distribution": "uniform",
-        "extent": [
-          0,
-          1
-        ]
-      },
+      "y": "minecraft:height_map",
       "z": {
         "distribution": "uniform",
         "extent": [

@@ -26,33 +26,9 @@
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0
       },
-      "minecraft:on_random_tick": {
-        "event": "africantrees:grow_acacia_umbrella",
-        "condition": "query.random_value(0, 6) == 0"
-      },
-      "minecraft:on_interact": {
-        "event": "africantrees:force_grow_acacia_umbrella",
-        "condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bone_meal')"
-      }
-    },
-    "events": {
-      "africantrees:grow_acacia_umbrella": {
-        "sequence": [
-          {
-            "condition": "q.block_state('africantrees:growth_stage') >= 3",
-            "place_feature": "africantrees:acacia_umbrella_tree"
-          },
-          {
-            "condition": "!(q.block_state('africantrees:growth_stage') >= 3)",
-            "set_block_state": {
-              "africantrees:growth_stage": "q.block_state('africantrees:growth_stage') + 1"
-            }
-          }
-        ]
-      },
-      "africantrees:force_grow_acacia_umbrella": {
-        "place_feature": "africantrees:acacia_umbrella_tree"
-      }
+      "minecraft:custom_components": [
+        "africantrees:sapling_growth"
+      ]
     }
   }
 }

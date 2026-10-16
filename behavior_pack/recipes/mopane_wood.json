@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:mopane_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LL",
+      "LL"
+    ],
+    "key": {
+      "L": {
+        "item": "africantrees:mopane_log"
+      }
+    },
+    "result": {
+      "item": "africantrees:mopane_wood",
+      "count": 3
+    }
+  }
+}

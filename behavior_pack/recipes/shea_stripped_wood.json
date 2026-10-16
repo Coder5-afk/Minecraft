@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:stripped_shea_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LL",
+      "LL"
+    ],
+    "key": {
+      "L": {
+        "item": "africantrees:stripped_shea_log"
+      }
+    },
+    "result": {
+      "item": "africantrees:stripped_shea_wood",
+      "count": 3
+    }
+  }
+}

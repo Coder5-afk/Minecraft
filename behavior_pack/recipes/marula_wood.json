@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:marula_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LL",
+      "LL"
+    ],
+    "key": {
+      "L": {
+        "item": "africantrees:marula_log"
+      }
+    },
+    "result": {
+      "item": "africantrees:marula_wood",
+      "count": 3
+    }
+  }
+}

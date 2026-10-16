@@ -1,0 +1,36 @@
+{
+  "resource_pack_name": "african_trees",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "baobab_boat": {
+      "textures": "textures/entity/baobab_boat"
+    },
+    "acacia_umbrella_boat": {
+      "textures": "textures/entity/acacia_umbrella_boat"
+    },
+    "african_mahogany_boat": {
+      "textures": "textures/entity/african_mahogany_boat"
+    },
+    "african_blackwood_boat": {
+      "textures": "textures/entity/african_blackwood_boat"
+    },
+    "iroko_boat": {
+      "textures": "textures/entity/iroko_boat"
+    },
+    "sapele_boat": {
+      "textures": "textures/entity/sapele_boat"
+    },
+    "marula_boat": {
+      "textures": "textures/entity/marula_boat"
+    },
+    "jackalberry_boat": {
+      "textures": "textures/entity/jackalberry_boat"
+    },
+    "mopane_boat": {
+      "textures": "textures/entity/mopane_boat"
+    },
+    "shea_boat": {
+      "textures": "textures/entity/shea_boat"
+    }
+  }
+}

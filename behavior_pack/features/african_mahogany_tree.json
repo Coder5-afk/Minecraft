@@ -4,7 +4,10 @@
     "description": {
       "identifier": "africantrees:african_mahogany_tree"
     },
-    "base_block": "minecraft:dirt",
+    "base_block": [
+      "minecraft:dirt",
+      "minecraft:grass"
+    ],
     "may_grow_on": [
       "minecraft:dirt",
       "minecraft:grass"
@@ -14,23 +17,25 @@
       "africantrees:african_mahogany_sapling"
     ],
     "trunk": {
-      "trunk_block": {
-        "name": "africantrees:african_mahogany_log"
-      },
+      "trunk_block": "africantrees:african_mahogany_log",
       "trunk_height": {
-        "base": 5,
-        "variance": 3
-      }
+        "base": 8,
+        "intervals": [
+          2
+        ],
+        "min_height_for_canopy": 2
+      },
+      "trunk_width": 1
     },
     "canopy": {
-      "canopy_block": {
-        "name": "minecraft:leaves"
-      },
-      "canopy_offset": {
-        "base": 0,
-        "variance": 2
-      },
-      "canopy_radius": 2
+      "canopy_height": 2,
+      "canopy_radius": 3,
+      "leaf_blocks": [
+        {
+          "leaf_block": "africantrees:african_mahogany_leaves",
+          "weight": 1
+        }
+      ]
     }
   }
 }

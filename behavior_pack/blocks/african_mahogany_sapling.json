@@ -26,33 +26,9 @@
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0
       },
-      "minecraft:on_random_tick": {
-        "event": "africantrees:grow_african_mahogany",
-        "condition": "query.random_value(0, 6) == 0"
-      },
-      "minecraft:on_interact": {
-        "event": "africantrees:force_grow_african_mahogany",
-        "condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bone_meal')"
-      }
-    },
-    "events": {
-      "africantrees:grow_african_mahogany": {
-        "sequence": [
-          {
-            "condition": "q.block_state('africantrees:growth_stage') >= 3",
-            "place_feature": "africantrees:african_mahogany_tree"
-          },
-          {
-            "condition": "!(q.block_state('africantrees:growth_stage') >= 3)",
-            "set_block_state": {
-              "africantrees:growth_stage": "q.block_state('africantrees:growth_stage') + 1"
-            }
-          }
-        ]
-      },
-      "africantrees:force_grow_african_mahogany": {
-        "place_feature": "africantrees:african_mahogany_tree"
-      }
+      "minecraft:custom_components": [
+        "africantrees:sapling_growth"
+      ]
     }
   }
 }

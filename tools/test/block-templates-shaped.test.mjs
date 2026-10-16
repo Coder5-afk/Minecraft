@@ -25,3 +25,17 @@ test("pressure plate and button are correctly identified", () => {
   assert.equal(pressurePlateBlock(species)["minecraft:block"].description.identifier, "africantrees:baobab_pressure_plate");
   assert.equal(buttonBlock(species)["minecraft:block"].description.identifier, "africantrees:baobab_button");
 });
+
+// Review finding I4 (final review): door/trapdoor/fence_gate fired
+// "africantrees:toggle_open" via minecraft:on_interact, but that event was
+// never defined anywhere (and minecraft:on_interact/events don't exist in
+// Bedrock's current block format regardless -- see special.mjs). Replaced
+// with the africantrees:toggleable Script API custom component.
+test("door, trapdoor, and fence gate use the toggleable custom component, not a dangling event", () => {
+  for (const fn of [doorBlock, trapdoorBlock, fenceGateBlock]) {
+    const block = fn(species)["minecraft:block"];
+    assert.ok(block.components["minecraft:custom_components"].includes("africantrees:toggleable"));
+    assert.equal(block.components["minecraft:on_interact"], undefined);
+    assert.deepEqual(block.description.states["africantrees:open"], [false, true]);
+  }
+});

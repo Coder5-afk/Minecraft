@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:stripped_acacia_umbrella_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LL",
+      "LL"
+    ],
+    "key": {
+      "L": {
+        "item": "africantrees:stripped_acacia_umbrella_log"
+      }
+    },
+    "result": {
+      "item": "africantrees:stripped_acacia_umbrella_wood",
+      "count": 3
+    }
+  }
+}

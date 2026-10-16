@@ -1,7 +1,8 @@
 {
   "behaviorPack": {
     "headerUuid": "b2e3d6b0-7532-4bbe-b410-72d4212acce9",
-    "moduleUuid": "631aad50-5748-40ca-b71d-e3ad55a91dfd"
+    "moduleUuid": "631aad50-5748-40ca-b71d-e3ad55a91dfd",
+    "scriptModuleUuid": "ce72e146-bd2e-4edd-a8bc-bcac370c01c0"
   },
   "resourcePack": {
     "headerUuid": "86e18f4e-526b-440e-ab19-32beacc89a6f",

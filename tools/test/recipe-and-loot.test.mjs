@@ -11,6 +11,8 @@ const expected = {
   trapdoorRecipe: "baobab_trapdoor", pressurePlateRecipe: "baobab_pressure_plate",
   buttonRecipe: "baobab_button", signRecipe: "baobab_sign", hangingSignRecipe: "baobab_hanging_sign",
   boatRecipe: "baobab_boat",
+  // Review finding I5 (final review): wood/stripped_wood had no recipe at all.
+  woodRecipe: "baobab_wood", strippedWoodRecipe: "stripped_baobab_wood",
 };
 
 test("every recipe produces the correct result item", () => {

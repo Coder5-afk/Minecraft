@@ -1,0 +1,20 @@
+[
+  {
+    "id": "baobab",
+    "displayName": "Baobab",
+    "barkColorHex": "#9C8061",
+    "plankColorHex": "#D8C49A",
+    "leafColorHex": "#6E8B3D",
+    "trunkHeightBase": 4,
+    "canopyRadius": 4
+  },
+  {
+    "id": "baobab",
+    "displayName": "Baobab Two",
+    "barkColorHex": "#9C8061",
+    "plankColorHex": "#D8C49A",
+    "leafColorHex": "#6E8B3D",
+    "trunkHeightBase": 4,
+    "canopyRadius": 4
+  }
+]

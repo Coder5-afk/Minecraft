@@ -19,11 +19,11 @@
     "baobab_planks": {
       "textures": "textures/blocks/baobab_planks"
     },
-    "baobab_sapling": {
+    "baobab_leaves": {
       "textures": "textures/blocks/baobab_leaves"
     },
-    "baobab_boat": {
-      "textures": "textures/entity/baobab_boat"
+    "baobab_sapling": {
+      "textures": "textures/blocks/baobab_leaves"
     },
     "acacia_umbrella_log": {
       "textures": "textures/blocks/acacia_umbrella_bark"
@@ -40,11 +40,11 @@
     "acacia_umbrella_planks": {
       "textures": "textures/blocks/acacia_umbrella_planks"
     },
-    "acacia_umbrella_sapling": {
+    "acacia_umbrella_leaves": {
       "textures": "textures/blocks/acacia_umbrella_leaves"
     },
-    "acacia_umbrella_boat": {
-      "textures": "textures/entity/acacia_umbrella_boat"
+    "acacia_umbrella_sapling": {
+      "textures": "textures/blocks/acacia_umbrella_leaves"
     },
     "african_mahogany_log": {
       "textures": "textures/blocks/african_mahogany_bark"
@@ -61,11 +61,11 @@
     "african_mahogany_planks": {
       "textures": "textures/blocks/african_mahogany_planks"
     },
-    "african_mahogany_sapling": {
+    "african_mahogany_leaves": {
       "textures": "textures/blocks/african_mahogany_leaves"
     },
-    "african_mahogany_boat": {
-      "textures": "textures/entity/african_mahogany_boat"
+    "african_mahogany_sapling": {
+      "textures": "textures/blocks/african_mahogany_leaves"
     },
     "african_blackwood_log": {
       "textures": "textures/blocks/african_blackwood_bark"
@@ -82,11 +82,11 @@
     "african_blackwood_planks": {
       "textures": "textures/blocks/african_blackwood_planks"
     },
-    "african_blackwood_sapling": {
+    "african_blackwood_leaves": {
       "textures": "textures/blocks/african_blackwood_leaves"
     },
-    "african_blackwood_boat": {
-      "textures": "textures/entity/african_blackwood_boat"
+    "african_blackwood_sapling": {
+      "textures": "textures/blocks/african_blackwood_leaves"
     },
     "iroko_log": {
       "textures": "textures/blocks/iroko_bark"
@@ -103,11 +103,11 @@
     "iroko_planks": {
       "textures": "textures/blocks/iroko_planks"
     },
-    "iroko_sapling": {
+    "iroko_leaves": {
       "textures": "textures/blocks/iroko_leaves"
     },
-    "iroko_boat": {
-      "textures": "textures/entity/iroko_boat"
+    "iroko_sapling": {
+      "textures": "textures/blocks/iroko_leaves"
     },
     "sapele_log": {
       "textures": "textures/blocks/sapele_bark"
@@ -124,11 +124,11 @@
     "sapele_planks": {
       "textures": "textures/blocks/sapele_planks"
     },
-    "sapele_sapling": {
+    "sapele_leaves": {
       "textures": "textures/blocks/sapele_leaves"
     },
-    "sapele_boat": {
-      "textures": "textures/entity/sapele_boat"
+    "sapele_sapling": {
+      "textures": "textures/blocks/sapele_leaves"
     },
     "marula_log": {
       "textures": "textures/blocks/marula_bark"
@@ -145,11 +145,11 @@
     "marula_planks": {
       "textures": "textures/blocks/marula_planks"
     },
-    "marula_sapling": {
+    "marula_leaves": {
       "textures": "textures/blocks/marula_leaves"
     },
-    "marula_boat": {
-      "textures": "textures/entity/marula_boat"
+    "marula_sapling": {
+      "textures": "textures/blocks/marula_leaves"
     },
     "jackalberry_log": {
       "textures": "textures/blocks/jackalberry_bark"
@@ -166,11 +166,11 @@
     "jackalberry_planks": {
       "textures": "textures/blocks/jackalberry_planks"
     },
-    "jackalberry_sapling": {
+    "jackalberry_leaves": {
       "textures": "textures/blocks/jackalberry_leaves"
     },
-    "jackalberry_boat": {
-      "textures": "textures/entity/jackalberry_boat"
+    "jackalberry_sapling": {
+      "textures": "textures/blocks/jackalberry_leaves"
     },
     "mopane_log": {
       "textures": "textures/blocks/mopane_bark"
@@ -187,11 +187,11 @@
     "mopane_planks": {
       "textures": "textures/blocks/mopane_planks"
     },
-    "mopane_sapling": {
+    "mopane_leaves": {
       "textures": "textures/blocks/mopane_leaves"
     },
-    "mopane_boat": {
-      "textures": "textures/entity/mopane_boat"
+    "mopane_sapling": {
+      "textures": "textures/blocks/mopane_leaves"
     },
     "shea_log": {
       "textures": "textures/blocks/shea_bark"
@@ -208,11 +208,11 @@
     "shea_planks": {
       "textures": "textures/blocks/shea_planks"
     },
-    "shea_sapling": {
+    "shea_leaves": {
       "textures": "textures/blocks/shea_leaves"
     },
-    "shea_boat": {
-      "textures": "textures/entity/shea_boat"
+    "shea_sapling": {
+      "textures": "textures/blocks/shea_leaves"
     }
   }
 }

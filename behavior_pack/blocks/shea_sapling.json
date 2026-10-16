@@ -26,33 +26,9 @@
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0
       },
-      "minecraft:on_random_tick": {
-        "event": "africantrees:grow_shea",
-        "condition": "query.random_value(0, 6) == 0"
-      },
-      "minecraft:on_interact": {
-        "event": "africantrees:force_grow_shea",
-        "condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bone_meal')"
-      }
-    },
-    "events": {
-      "africantrees:grow_shea": {
-        "sequence": [
-          {
-            "condition": "q.block_state('africantrees:growth_stage') >= 3",
-            "place_feature": "africantrees:shea_tree"
-          },
-          {
-            "condition": "!(q.block_state('africantrees:growth_stage') >= 3)",
-            "set_block_state": {
-              "africantrees:growth_stage": "q.block_state('africantrees:growth_stage') + 1"
-            }
-          }
-        ]
-      },
-      "africantrees:force_grow_shea": {
-        "place_feature": "africantrees:shea_tree"
-      }
+      "minecraft:custom_components": [
+        "africantrees:sapling_growth"
+      ]
     }
   }
 }

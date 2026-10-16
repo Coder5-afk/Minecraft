@@ -31,6 +31,29 @@ export function planksRecipe(species) {
   return shapeless(`${NAMESPACE}:${species.id}_planks_from_log`, [{ item: log }], planks, 4);
 }
 
+// Review finding I5 (final review): wood/stripped_wood had no way to be
+// obtained at all. Plain wood crafts from logs like vanilla's bark-block
+// recipe; stripped wood crafts from stripped logs the same way. Stripped
+// *logs* themselves come from axe-stripping a placed log (see
+// behavior_pack/scripts/main.js), not a crafting recipe, matching vanilla.
+export function woodRecipe(species) {
+  const log = `${NAMESPACE}:${species.id}_log`;
+  const wood = `${NAMESPACE}:${species.id}_wood`;
+  return shaped(`${NAMESPACE}:${species.id}_wood`, ["LL", "LL"], { L: { item: log } }, wood, 3);
+}
+
+export function strippedWoodRecipe(species) {
+  const strippedLog = `${NAMESPACE}:stripped_${species.id}_log`;
+  const strippedWood = `${NAMESPACE}:stripped_${species.id}_wood`;
+  return shaped(
+    `${NAMESPACE}:stripped_${species.id}_wood`,
+    ["LL", "LL"],
+    { L: { item: strippedLog } },
+    strippedWood,
+    3
+  );
+}
+
 export function stairsRecipe(species) {
   const planks = `${NAMESPACE}:${species.id}_planks`;
   const stairs = `${NAMESPACE}:${species.id}_stairs`;
