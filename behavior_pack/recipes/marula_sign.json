@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:marula_sign"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP",
+      "PPP",
+      " S "
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:marula_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "africantrees:marula_sign",
+      "count": 3
+    }
+  }
+}

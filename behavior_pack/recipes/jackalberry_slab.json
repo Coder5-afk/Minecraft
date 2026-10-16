@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:jackalberry_slab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:jackalberry_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:jackalberry_slab",
+      "count": 6
+    }
+  }
+}

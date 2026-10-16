@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:sapele_stairs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P  ",
+      "PP ",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:sapele_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:sapele_stairs",
+      "count": 4
+    }
+  }
+}

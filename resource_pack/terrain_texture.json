@@ -1,0 +1,218 @@
+{
+  "resource_pack_name": "african_trees",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "baobab_log": {
+      "textures": "textures/blocks/baobab_bark"
+    },
+    "baobab_log_top": {
+      "textures": "textures/blocks/baobab_bark_top"
+    },
+    "stripped_baobab_log": {
+      "textures": "textures/blocks/baobab_bark"
+    },
+    "stripped_baobab_log_top": {
+      "textures": "textures/blocks/baobab_bark_top"
+    },
+    "baobab_planks": {
+      "textures": "textures/blocks/baobab_planks"
+    },
+    "baobab_sapling": {
+      "textures": "textures/blocks/baobab_leaves"
+    },
+    "baobab_boat": {
+      "textures": "textures/entity/baobab_boat"
+    },
+    "acacia_umbrella_log": {
+      "textures": "textures/blocks/acacia_umbrella_bark"
+    },
+    "acacia_umbrella_log_top": {
+      "textures": "textures/blocks/acacia_umbrella_bark_top"
+    },
+    "stripped_acacia_umbrella_log": {
+      "textures": "textures/blocks/acacia_umbrella_bark"
+    },
+    "stripped_acacia_umbrella_log_top": {
+      "textures": "textures/blocks/acacia_umbrella_bark_top"
+    },
+    "acacia_umbrella_planks": {
+      "textures": "textures/blocks/acacia_umbrella_planks"
+    },
+    "acacia_umbrella_sapling": {
+      "textures": "textures/blocks/acacia_umbrella_leaves"
+    },
+    "acacia_umbrella_boat": {
+      "textures": "textures/entity/acacia_umbrella_boat"
+    },
+    "african_mahogany_log": {
+      "textures": "textures/blocks/african_mahogany_bark"
+    },
+    "african_mahogany_log_top": {
+      "textures": "textures/blocks/african_mahogany_bark_top"
+    },
+    "stripped_african_mahogany_log": {
+      "textures": "textures/blocks/african_mahogany_bark"
+    },
+    "stripped_african_mahogany_log_top": {
+      "textures": "textures/blocks/african_mahogany_bark_top"
+    },
+    "african_mahogany_planks": {
+      "textures": "textures/blocks/african_mahogany_planks"
+    },
+    "african_mahogany_sapling": {
+      "textures": "textures/blocks/african_mahogany_leaves"
+    },
+    "african_mahogany_boat": {
+      "textures": "textures/entity/african_mahogany_boat"
+    },
+    "african_blackwood_log": {
+      "textures": "textures/blocks/african_blackwood_bark"
+    },
+    "african_blackwood_log_top": {
+      "textures": "textures/blocks/african_blackwood_bark_top"
+    },
+    "stripped_african_blackwood_log": {
+      "textures": "textures/blocks/african_blackwood_bark"
+    },
+    "stripped_african_blackwood_log_top": {
+      "textures": "textures/blocks/african_blackwood_bark_top"
+    },
+    "african_blackwood_planks": {
+      "textures": "textures/blocks/african_blackwood_planks"
+    },
+    "african_blackwood_sapling": {
+      "textures": "textures/blocks/african_blackwood_leaves"
+    },
+    "african_blackwood_boat": {
+      "textures": "textures/entity/african_blackwood_boat"
+    },
+    "iroko_log": {
+      "textures": "textures/blocks/iroko_bark"
+    },
+    "iroko_log_top": {
+      "textures": "textures/blocks/iroko_bark_top"
+    },
+    "stripped_iroko_log": {
+      "textures": "textures/blocks/iroko_bark"
+    },
+    "stripped_iroko_log_top": {
+      "textures": "textures/blocks/iroko_bark_top"
+    },
+    "iroko_planks": {
+      "textures": "textures/blocks/iroko_planks"
+    },
+    "iroko_sapling": {
+      "textures": "textures/blocks/iroko_leaves"
+    },
+    "iroko_boat": {
+      "textures": "textures/entity/iroko_boat"
+    },
+    "sapele_log": {
+      "textures": "textures/blocks/sapele_bark"
+    },
+    "sapele_log_top": {
+      "textures": "textures/blocks/sapele_bark_top"
+    },
+    "stripped_sapele_log": {
+      "textures": "textures/blocks/sapele_bark"
+    },
+    "stripped_sapele_log_top": {
+      "textures": "textures/blocks/sapele_bark_top"
+    },
+    "sapele_planks": {
+      "textures": "textures/blocks/sapele_planks"
+    },
+    "sapele_sapling": {
+      "textures": "textures/blocks/sapele_leaves"
+    },
+    "sapele_boat": {
+      "textures": "textures/entity/sapele_boat"
+    },
+    "marula_log": {
+      "textures": "textures/blocks/marula_bark"
+    },
+    "marula_log_top": {
+      "textures": "textures/blocks/marula_bark_top"
+    },
+    "stripped_marula_log": {
+      "textures": "textures/blocks/marula_bark"
+    },
+    "stripped_marula_log_top": {
+      "textures": "textures/blocks/marula_bark_top"
+    },
+    "marula_planks": {
+      "textures": "textures/blocks/marula_planks"
+    },
+    "marula_sapling": {
+      "textures": "textures/blocks/marula_leaves"
+    },
+    "marula_boat": {
+      "textures": "textures/entity/marula_boat"
+    },
+    "jackalberry_log": {
+      "textures": "textures/blocks/jackalberry_bark"
+    },
+    "jackalberry_log_top": {
+      "textures": "textures/blocks/jackalberry_bark_top"
+    },
+    "stripped_jackalberry_log": {
+      "textures": "textures/blocks/jackalberry_bark"
+    },
+    "stripped_jackalberry_log_top": {
+      "textures": "textures/blocks/jackalberry_bark_top"
+    },
+    "jackalberry_planks": {
+      "textures": "textures/blocks/jackalberry_planks"
+    },
+    "jackalberry_sapling": {
+      "textures": "textures/blocks/jackalberry_leaves"
+    },
+    "jackalberry_boat": {
+      "textures": "textures/entity/jackalberry_boat"
+    },
+    "mopane_log": {
+      "textures": "textures/blocks/mopane_bark"
+    },
+    "mopane_log_top": {
+      "textures": "textures/blocks/mopane_bark_top"
+    },
+    "stripped_mopane_log": {
+      "textures": "textures/blocks/mopane_bark"
+    },
+    "stripped_mopane_log_top": {
+      "textures": "textures/blocks/mopane_bark_top"
+    },
+    "mopane_planks": {
+      "textures": "textures/blocks/mopane_planks"
+    },
+    "mopane_sapling": {
+      "textures": "textures/blocks/mopane_leaves"
+    },
+    "mopane_boat": {
+      "textures": "textures/entity/mopane_boat"
+    },
+    "shea_log": {
+      "textures": "textures/blocks/shea_bark"
+    },
+    "shea_log_top": {
+      "textures": "textures/blocks/shea_bark_top"
+    },
+    "stripped_shea_log": {
+      "textures": "textures/blocks/shea_bark"
+    },
+    "stripped_shea_log_top": {
+      "textures": "textures/blocks/shea_bark_top"
+    },
+    "shea_planks": {
+      "textures": "textures/blocks/shea_planks"
+    },
+    "shea_sapling": {
+      "textures": "textures/blocks/shea_leaves"
+    },
+    "shea_boat": {
+      "textures": "textures/entity/shea_boat"
+    }
+  }
+}

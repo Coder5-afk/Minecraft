@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:jackalberry_fence"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PSP",
+      "PSP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:jackalberry_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "africantrees:jackalberry_fence",
+      "count": 3
+    }
+  }
+}

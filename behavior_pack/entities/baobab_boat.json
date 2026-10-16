@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "africantrees:baobab_boat",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:boat": {},
+      "minecraft:buoyant": {
+        "apply_gravity": true,
+        "base_buoyancy": 1,
+        "liquid_blocks": [
+          "minecraft:water",
+          "minecraft:flowing_water"
+        ]
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:collision_box": {
+        "width": 1.4,
+        "height": 0.6
+      }
+    }
+  }
+}

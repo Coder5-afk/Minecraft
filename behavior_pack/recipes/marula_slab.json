@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:marula_slab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:marula_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:marula_slab",
+      "count": 6
+    }
+  }
+}

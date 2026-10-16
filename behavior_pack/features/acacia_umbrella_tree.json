@@ -1,0 +1,36 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:tree_feature": {
+    "description": {
+      "identifier": "africantrees:acacia_umbrella_tree"
+    },
+    "base_block": "minecraft:dirt",
+    "may_grow_on": [
+      "minecraft:dirt",
+      "minecraft:grass"
+    ],
+    "may_replace": [
+      "minecraft:air",
+      "africantrees:acacia_umbrella_sapling"
+    ],
+    "trunk": {
+      "trunk_block": {
+        "name": "africantrees:acacia_umbrella_log"
+      },
+      "trunk_height": {
+        "base": 5,
+        "variance": 3
+      }
+    },
+    "canopy": {
+      "canopy_block": {
+        "name": "minecraft:leaves"
+      },
+      "canopy_offset": {
+        "base": 0,
+        "variance": 2
+      },
+      "canopy_radius": 2
+    }
+  }
+}

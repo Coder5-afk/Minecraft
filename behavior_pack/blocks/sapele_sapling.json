@@ -1,0 +1,58 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "africantrees:sapele_sapling",
+      "menu_category": {
+        "category": "nature"
+      },
+      "states": {
+        "africantrees:growth_stage": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.cross",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "sapele_sapling",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:on_random_tick": {
+        "event": "africantrees:grow_sapele",
+        "condition": "query.random_value(0, 6) == 0"
+      },
+      "minecraft:on_interact": {
+        "event": "africantrees:force_grow_sapele",
+        "condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bone_meal')"
+      }
+    },
+    "events": {
+      "africantrees:grow_sapele": {
+        "sequence": [
+          {
+            "condition": "q.block_state('africantrees:growth_stage') >= 3",
+            "place_feature": "africantrees:sapele_tree"
+          },
+          {
+            "condition": "!(q.block_state('africantrees:growth_stage') >= 3)",
+            "set_block_state": {
+              "africantrees:growth_stage": "q.block_state('africantrees:growth_stage') + 1"
+            }
+          }
+        ]
+      },
+      "africantrees:force_grow_sapele": {
+        "place_feature": "africantrees:sapele_tree"
+      }
+    }
+  }
+}

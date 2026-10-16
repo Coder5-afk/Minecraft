@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "africantrees:jackalberry_boat",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "jackalberry_boat"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:entity_placer": {
+        "entity": "africantrees:jackalberry_boat",
+        "dispense_on": [
+          "minecraft:water"
+        ],
+        "use_on": [
+          "minecraft:water"
+        ]
+      }
+    }
+  }
+}

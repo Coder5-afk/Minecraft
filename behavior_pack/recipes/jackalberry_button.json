@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "africantrees:jackalberry_button"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "africantrees:jackalberry_planks"
+      }
+    ],
+    "result": {
+      "item": "africantrees:jackalberry_button",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:baobab_stairs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P  ",
+      "PP ",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:baobab_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:baobab_stairs",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "africantrees:mopane_button"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "africantrees:mopane_planks"
+      }
+    ],
+    "result": {
+      "item": "africantrees:mopane_button",
+      "count": 1
+    }
+  }
+}

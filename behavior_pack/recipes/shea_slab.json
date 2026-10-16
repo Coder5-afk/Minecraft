@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:shea_slab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:shea_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:shea_slab",
+      "count": 6
+    }
+  }
+}

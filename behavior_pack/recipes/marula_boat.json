@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:marula_boat"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P P",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:marula_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:marula_boat",
+      "count": 1
+    }
+  }
+}

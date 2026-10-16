@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "africantrees:sapele_planks_from_log"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "africantrees:sapele_log"
+      }
+    ],
+    "result": {
+      "item": "africantrees:sapele_planks",
+      "count": 4
+    }
+  }
+}

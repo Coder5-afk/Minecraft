@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:african_blackwood_hanging_sign"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "C C",
+      "LLL",
+      "LLL"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:chain"
+      },
+      "L": {
+        "item": "africantrees:stripped_african_blackwood_log"
+      }
+    },
+    "result": {
+      "item": "africantrees:african_blackwood_hanging_sign",
+      "count": 6
+    }
+  }
+}

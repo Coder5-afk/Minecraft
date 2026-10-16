@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:acacia_umbrella_stairs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P  ",
+      "PP ",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:acacia_umbrella_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:acacia_umbrella_stairs",
+      "count": 4
+    }
+  }
+}

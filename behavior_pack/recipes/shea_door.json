@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:shea_door"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PP",
+      "PP",
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:shea_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:shea_door",
+      "count": 1
+    }
+  }
+}

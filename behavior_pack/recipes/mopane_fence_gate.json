@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:mopane_fence_gate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "SPS",
+      "SPS"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:mopane_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "africantrees:mopane_fence_gate",
+      "count": 1
+    }
+  }
+}

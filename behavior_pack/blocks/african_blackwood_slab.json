@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "africantrees:african_blackwood_slab",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.africantrees_slab",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "african_blackwood_planks",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:flammable": {
+        "flame_odds": 5,
+        "burn_odds": 5
+      }
+    }
+  }
+}

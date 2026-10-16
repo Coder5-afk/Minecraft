@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:jackalberry_pressure_plate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:jackalberry_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:jackalberry_pressure_plate",
+      "count": 1
+    }
+  }
+}

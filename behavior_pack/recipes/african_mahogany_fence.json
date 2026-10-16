@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:african_mahogany_fence"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PSP",
+      "PSP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:african_mahogany_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "africantrees:african_mahogany_fence",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "africantrees:iroko_button"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "africantrees:iroko_planks"
+      }
+    ],
+    "result": {
+      "item": "africantrees:iroko_button",
+      "count": 1
+    }
+  }
+}

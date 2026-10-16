@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "africantrees:marula_button"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "africantrees:marula_planks"
+      }
+    ],
+    "result": {
+      "item": "africantrees:marula_button",
+      "count": 1
+    }
+  }
+}

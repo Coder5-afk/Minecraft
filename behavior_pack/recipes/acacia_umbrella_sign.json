@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:acacia_umbrella_sign"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP",
+      "PPP",
+      " S "
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:acacia_umbrella_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "africantrees:acacia_umbrella_sign",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "africantrees:african_blackwood_boat",
+      "materials": {
+        "default": "boat"
+      },
+      "geometry": {
+        "default": "geometry.africantrees_boat"
+      },
+      "textures": {
+        "default": "textures/entity/african_blackwood_boat"
+      },
+      "render_controllers": [
+        "controller.render.boat"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "africantrees:acacia_umbrella_pressure_plate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "africantrees:acacia_umbrella_planks"
+      }
+    },
+    "result": {
+      "item": "africantrees:acacia_umbrella_pressure_plate",
+      "count": 1
+    }
+  }
+}
